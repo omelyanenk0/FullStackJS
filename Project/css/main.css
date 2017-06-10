@@ -1,5 +1,6 @@
 * {
     border: 1px solid red !important;
+    font-family: 'Bubbler One', sans-serif;
 }
 
 * {
@@ -9,26 +10,8 @@
     box-sizing: border-box;
 }
 p{
-    padding: 10px;
+    padding: 10px;    
 }
-
-h1{color: #00BCD4
-}
-
-.Post{
-	margin-left: 0;
-    min-height: initial;
-    align-items: center;
-}
-
- .Post_title
-{	color: #00BCD4;}
-
-.Post_text
-{	color: gray;
-	font-style:italic;}
-
-
 
 .grid {
     margin: 0 auto;
