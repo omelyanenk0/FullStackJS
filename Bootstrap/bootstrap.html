@@ -3,6 +3,9 @@
   <head>
     <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="Bootstrap/css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <script type="text/javascript" src="Bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="Bootstrap/js/bootstrap.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -13,14 +16,14 @@
            
         </div>
         <div class="col-md-8">
-          <h1>HEAD</h1>
+          <h1 class="text-thin">HEAD</h1>
         </div>
       </div>
 
        <div class="row">
 
         <div class="col-md-4">
-        	<h2>latest posts</h2>  
+        	<h2 class="text-muted">latest posts</h2>  
         </div>
         <div class="col-md-8" style="
     padding: 25px;">
@@ -41,21 +44,38 @@
         	</ul> 
         </div>
         <div class="col-md-8">
-           <img src="http://placehold.it/200x200" class="img-responsive" alt="Responsive image">
+
+           <img src="https://placeimg.com/300/300/any" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#project1">
            <p><a href="http://github.com">Link to post</a></p>
            <hr>
-           <img src="http://placehold.it/200x200" class="img-responsive" alt="Responsive image">
+           <img src="https://placeimg.com/300/300/nature" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#project1">
            <p><a href="http://github.com">Link to post</a></p>
            <hr>
-           <img src="http://placehold.it/200x200" class="img-responsive" alt="Responsive image">
+           <img src="https://placeimg.com/300/300/people" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#project1">
            <p><a href="http://github.com">Link to post</a></p>
            <hr>
-           <img src="http://placehold.it/200x200" class="img-responsive" alt="Responsive image">
+           <img src="https://placeimg.com/300/300/people/grayscale" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#project1">
            <p><a href="http://github.com">Link to post</a></p>
            <hr>
         </div>
       </div>
 
+    </div>
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Post Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://placeimg.com/300/300/any">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
   </body>
 </html>
