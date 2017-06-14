@@ -1,6 +1,6 @@
 * {
     font-family: 'Bubbler One', sans-serif;
-
+    background: #EFEFEF;
 
 }
 
@@ -12,6 +12,10 @@
 }
 p{
     padding: 10px;    
+}
+.my-hr{
+    color: #c4eacd;
+    size: 5px;
 }
 
 
@@ -45,6 +49,7 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
+
 }
 
 a.button15 {
